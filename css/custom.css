@@ -1,3 +1,9 @@
+/* Navigation bar */
+.nav-link:hover
+{
+  background: rgba(200, 200, 200, 0.5);
+  border-radius: 6px;
+}
 /* Logo styles */
 .logo
 {
@@ -5,6 +11,24 @@
   width: 40px;
 }
 
+/* Header styles */
+.header
+{
+  background-image: url("../images/header-background4.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay
+{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(50,50, 50, 0.5);
+}
 /* Social media icons in the footer */
 .social-media-icon
 {
@@ -13,4 +37,28 @@
   margin-left: 10px;
 }
 
+h5
+{
+  text-align: center;
+}
 
+.card
+{
+  border: 1px solid rgba(30, 30, 30, 0.2);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body button
+{
+  margin-left: 20px;
+}
+.card-body button:hover
+{
+  border: 2px solid grey;
+  border-radius: 10px;
+  background: rgba(200, 200, 200, 0.1);
+  color: grey;
+  background-color: rgba(200, 200, 200, 0.3);
+}
