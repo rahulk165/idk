@@ -33,27 +33,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-	  <a class="nav-link" data-value="about" href="#">About us</a>
+	  <a class="nav-link" data-value="header" href="#header">About us</a>
 	</li>
 
 	<li class="nav-item">
-	  <a class="nav-link" data-value="courses" href="#">Courses</a>
+	  <a class="nav-link" data-value="courses" href="#courses">Courses</a>
 	</li>
 
 	<li class="nav-item">
-	  <a class="nav-link" data-value="navigation" href="#">Admission</a>
+	  <a class="nav-link" data-value="courses" href="#courses">Admission</a>
 	</li>
 
 	<li class="nav-item">
-	  <a class="nav-link" data-value="Testimonials" href="#">Testimonials</a>
+	  <a class="nav-link" data-value="testimonials" href="#testimonials">Testimonials</a>
 	</li>
 
 	<li class="nav-item">
-	  <a class="nav-link" data-value="contact" href="#">Contact Us</a>
+	  <a class="nav-link" data-value="contact" href="#contact">Contact Us</a>
 	</li>
 
 	<li class="nav-item dropdown">
-	  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Login</a>
+	  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user mr-2"></i>Login</a>
 	  <div class="dropdown-menu">
 	    <a href="#" class="dropdown-item"><i class="fa fa-child" style="margin-right: 6px"></i>Student</a>
 	    <a href="#" class="dropdown-item"><i class="fa fa-user" style="margin-right: 6px"></i>Parent</a>
@@ -65,22 +65,26 @@
     </div>
     </div>
   </nav>
+  <!-- Navigation bar ends -->
 
   <!-- Header -->
-  <header class="header">
+  <header class="header" id="header">
     <div class="overlay"></div>
-    <div class="container container-fluid">
-      <div class="description text-center">
-        <h3 class="container container-fluid shadow">Welcome to IDK !</h3>
+    <div class="container container-fluid text-center">
+      <div class="description container container-fluid">
+        <h2 class="container container-fluid shadow text-center">Welcome to IDK !</h2>
 	<p class="container container-fluid shadow">A small description about the institute will be added here.</p>
+	<button class="btn btn-outline-primary btn-md shadow mr-3">Learn with us</button>
+	<button class="btn btn-outline-info btn-md shadow">Join Us</button>
       </div>
     </div>
   </header>
-  <br/><br/>
+  <!-- Header ends -->
+
   <!-- Courses section -->
-  <div class="courses bg-light">
+  <div class="courses bg-light" id="courses">
     <div class="container container-fluid py-5">
-      <h1 class="text-center">Courses</h1>
+      <h1 class="font-weight-bold dark-grey-text text-center">Courses</h1>
       <p class="lead text-muted text-center mb-5">Put a short summary of the courses here..</p>
       <div class="row container container-fluid">
         <div class="col-md-6 my-3">
@@ -100,7 +104,7 @@
         <div class="col-md-6 my-3">
           <div class="card shadow-lg h-100">
             <div class="card-body">
-              <h5>PLUS ONE</h5>
+              <h5>PLUS TWO</h5>
               <ul>
                 <li>Registration started</li>
                 <li>Subjects: Physics, Chemistry, Maths, Biology</li>
@@ -116,7 +120,7 @@
         <div class="col-md-6 my-3">
           <div class="card shadow-lg h-100">
             <div class="card-body">
-              <h5>PLUS ONE</h5>
+              <h5>ONLINE CRASH COURSE</h5>
               <ul>
                 <li>Registration started</li>
                 <li>Subjects: Physics, Chemistry, Maths, Biology</li>
@@ -130,7 +134,7 @@
         <div class="col-md-6 my-3">
           <div class="card shadow-lg h-100">
             <div class="card-body">
-              <h5>PLUS ONE</h5>
+              <h5>ENTRANCE COACHING</h5>
               <ul>
                 <li>Registration started</li>
                 <li>Subjects: Physics, Chemistry, Maths, Biology</li>
@@ -142,8 +146,56 @@
         </div>
       </div>
     </div>
+
+    <!-- Courses section ends -->
+    <br/></br/>
+    <!-- Testimonials -->
+    <div class="testimonials container container-fluid" id="testimonials">
+      <h1 class="text-center font-weight-bold">Testimonials</h1>
+      <div class="row text-center">
+        <div class="col-md-6 testimonial my-3">
+	  <!-- Avatar -->
+	  <div class="avatar mx-auto">
+	    <img src="images/avatar1.jpg" class="rounded-circle z-depth-1 img-fluid">
+	  </div>
+
+	  <!-- Content -->
+	  <h4 class="font-weight-bold dark-grey-text mt-4">Nisha</h4>
+	  <h6 class="font-weight-bold blue-text my-3">Class 12th</h6>
+	  <p class="font-weight-normal dark-grey-text">
+	    <i class="fa fa-quote-left pr-2"></i>
+	    Due to the commitment to quality education IDK institute provides creative and effective coaching for Medical and Engineering
+	    entrance aspirants. Here, the institute guides and equips the students for achieving notable ranks. I am very proud to say that
+	    I could achieve such a rank in my first attempt.
+	    <i class="fa fa-quote-right pr-2"></i>
+	  </p>
+	</div>
+
+	<!-- Testimonial 2 -->
+	<div class="col-md-6 testimonial my-3">
+	  <!-- abatar -->
+	  <div class="avatar mx-auto">
+	    <img src="images/avatar2.jpg" class="thumbnail rounded-circle z-depth-1 img-fluid">
+	  </div>
+
+	  <!-- Content -->
+	  <h4 class="font-weight-bold dark-grey-text mt-4">Nisha</h4>
+	  <h6 class="font-weight-bold blue-text mt-3">Class 12th</h6>
+	  <p class="font-weight-normal dark-grey-text">
+	    <i class="fa fa-quote-left pr-2"></i>
+	    Due to the commitment to quality education, IDK Institute provides creative and effective coaching for Medical and Engineering
+	    entrance aspirants. Here, the institute guides and equips the students for achieving notable ranks. I am very proud to say that
+	    I could achieve such a rank in my first attempt.
+	    <i class="fa fa-quote-right pr-2"></i>
+	  </p>
+	</div>
+
+	<!-- Testimonail 2 ends -->
+      </div>
+    </div>
+    <!-- Testimonials ends -->
     <!-- Contact Us -->
-    <div class="contact container container-fluid py-5">
+    <div class="contact container container-fluid py-5" id="contact">
       <h1 class="text-center">Contact Us</h1>
       <div class="row">
         <div class="contact-form col-md-4">
@@ -174,7 +226,7 @@
               <div class="md-form">
                 <i class="fa fa-pencil prefix grey-text"></i>
                 <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-                <label for="form-text">Icon Prefix</label>
+                <label for="form-text"></label>
               </div>
 
               <div class="text-center mt-4">
@@ -192,18 +244,18 @@
           <!-- Buttons -->
           <div class="container container-fluid pt-5">
             <div class="row">
-          <div class="col-md-4 shadow" style="border: 1px solid rgba(50, 50, 50, 0.2); border-radius: 3px">
+          <div class="col-md-4 shadow pt-3 text-center" style="border: 1px solid rgba(50, 50, 50, 0.2); border-radius: 3px">
             <a class="btn-floating"><i class="fa fa-map-marker fa-2x"></i></a>
             <p>Kollengode, Palakkad-678504</p>
             <p>India</p>
           </div>
 
-          <div class="col-md-4 shadow" style="border: 1px solid rgba(50, 50, 50, 0.2); border-radius: 3px">
+          <div class="col-md-4 shadow pt-3 text-center" style="border: 1px solid rgba(50, 50, 50, 0.2); border-radius: 3px">
             <a class="btn-floating"><i class="fa fa-phone fa-2x"></i></a>
             <p>+91-8484848484</p>
           </div>
 
-          <div class="col-md-4 shadow" style="border: 1px solid rgba(50, 50, 50, 0.2); border-radius: 3px">
+          <div class="col-md-4 shadow pt-3 text-center" style="border: 1px solid rgba(50, 50, 50, 0.2); border-radius: 3px">
             <a class="btn-floating"><i class="fa fa-envelope fa-2x"></i></a>
             <p>info@idkinstitute.com</p>
             <p>personalmail@gmail.com</p>
@@ -242,11 +294,11 @@
               <div class="row">
                 <div class="social-media-icons">
 	          <p>
-	            <a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x social-media-icon" aria-hidden="true"></i></a>
-	            <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x social-media-icon" aria-hidden="true"></i></a>
-	            <a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x social-media-icon" aria-hidden="true"></i></a>
-	            <a href="mailto:info@info.com"><i class="fa fa-envelope-o fa-2x social-media-icon" aria-hidden="true"></i></a>
-	            <a href="tel:+91-444848484848"><i class="fa fa-phone fa-2x social-media-icon" aria-hidden="true"></i></a>
+	            <a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x social-media-icon text-light" aria-hidden="true"></i></a>
+	            <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x social-media-icon text-light" aria-hidden="true"></i></a>
+	            <a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x social-media-icon text-light" aria-hidden="true"></i></a>
+	            <a href="mailto:info@info.com"><i class="fa fa-envelope-o fa-2x social-media-icon text-light" aria-hidden="true"></i></a>
+	            <a href="tel:+91-444848484848"><i class="fa fa-phone fa-2x social-media-icon text-light" aria-hidden="true"></i></a>
 	          </p>
                 </div>
               </div>
