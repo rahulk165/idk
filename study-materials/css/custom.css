@@ -7,6 +7,20 @@ html
   scroll-behavior: smooth;
 }
 
+/* For Subject heading fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.card-header button
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.dropdown button
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
 /* Header desctiption */
 .description
 {
@@ -117,6 +131,11 @@ html
 {
   background: #bb0000;
   color: white;
+}
+
+.fa-file-pdf-o
+{
+  color: red;
 }
 /*
 .fa
